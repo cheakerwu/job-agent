@@ -1,0 +1,32 @@
+{
+  "basic_info": {
+    "name": "张三",
+    "education": "本科 - 计算机科学与技术",
+    "graduation_year": "2026",
+    "phone": "138****8888",
+    "email": "zhangsan@example.com"
+  },
+  "skills": [
+    "Python", "Django", "Flask",
+    "MySQL", "Redis", "Git", "Linux"
+  ],
+  "experiences": [
+    {
+      "title": "校园项目 - 在线教育平台",
+      "duration": "2024.06 - 2024.12",
+      "description": "使用Django开发后端API",
+      "tech_stack": ["Python", "Django", "MySQL", "Redis"],
+      "achievements": [
+        "实现了完整的用户认证系统",
+        "优化数据库查询,提升20%性能"
+      ]
+    }
+  ],
+  "filter_preferences": {
+    "cities": ["北京", "上海", "深圳"],
+    "salary_min": 5000,
+    "salary_max": 10000,
+    "keywords": ["Python", "后端", "实习"],
+    "exclude_keywords": ["销售", "客服"]
+  }
+}

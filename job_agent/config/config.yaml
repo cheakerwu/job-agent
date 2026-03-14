@@ -1,0 +1,27 @@
+crawler:
+  platform: boss
+  delay_min: 2
+  delay_max: 5
+  max_pages: 5
+  headless: true
+  browser: msedge
+  timeout: 30000
+  retry_times: 3
+
+filter:
+  default_city: "北京"
+  default_salary_min: 5000
+  default_salary_max: 10000
+
+resume:
+  api_provider: claude
+  model: claude-3-5-sonnet-20241022
+  max_tokens: 2000
+  cache_enabled: true
+  daily_limit: 10
+  rate_limit: 10
+
+storage:
+  db_path: "data/jobs.db"
+  resume_dir: "data/resumes"
+  log_dir: "logs"
